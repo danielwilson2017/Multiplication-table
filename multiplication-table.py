@@ -24,9 +24,9 @@ Height of multiplication table: 8
 wq = int(float(input("What is the width of the multiplication table? ")))
 hq = int(float(input("What is the height of the multiplicaton table? ")))
 
-for x in range(1, wq) :
-    for y in range(1, hq) :
-        print(x, y)
-
+for x in range(1, wq+1) :
+    for y in range(1, hq+1) :
+        print(x*y, " ", end="")
+    print("")
 
 "list"
