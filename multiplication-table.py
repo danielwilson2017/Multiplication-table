@@ -26,7 +26,7 @@ hq = int(float(input("What is the height of the multiplicaton table? ")))
 
 for x in range(1, wq+1) :
     for y in range(1, hq+1) :
-        print(x*y, " ", end="")
+        print("{0: <2}  ".format(x*y), end="")
     print("")
 
 "format this"
