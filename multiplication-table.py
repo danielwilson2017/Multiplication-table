@@ -29,4 +29,4 @@ for x in range(1, wq) :
         print(x, y)
 
 
-
+"list"
