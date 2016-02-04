@@ -29,4 +29,4 @@ for x in range(1, wq+1) :
         print(x*y, " ", end="")
     print("")
 
-"list"
+"format this"
